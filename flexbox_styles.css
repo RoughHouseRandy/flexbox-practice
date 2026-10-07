@@ -12,11 +12,20 @@ header {
 nav {
     display:flex;
     align-items:center;
-    gap:1.2rem;
+    gap:2rem;
 }
 
+.user-actions {
+    display:flex;
+    gap:.75rem;
+}
+
+section{
+    margin:1rem 0rem;
+}
 .card-container {
     display:flex;
+    gap:1rem;
 }
 
 .card {
@@ -29,6 +38,7 @@ nav {
 .features {
     display:flex;
     margin:.5rem;
+    gap:1rem;
 }
 
 .feature-item {
@@ -46,20 +56,24 @@ nav {
     display:flex;
     align-items:flex-start;
     margin:.5rem;
+    gap:1rem;
 }
 
+footer{
+    margin-top:2rem;
+}
 .footer-section {
     display:flex;
     flex-direction:column;
     align-items:flex-start;
     text-align:left;
     padding-right:5rem;
-    margin:0rem 1rem
+    margin:0rem 1rem;
 }
 
 .social-links{
     display:flex;
-    gap:1rem;
+    gap:.75rem;
 }
 
 .footer-bottom {
@@ -72,4 +86,9 @@ nav {
 Challenge: Use flexbox in media queries to create a responsive layout 
 */
 
-
+@media (max-width:770px){
+    
+    .user-actions{
+        gap:1rem;
+    }
+}
