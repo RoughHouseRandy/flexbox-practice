@@ -23,18 +23,50 @@ nav {
     display:flex;
     flex-direction:column;
     align-items:center;
-
+    margin:.5rem;
 }
 
 .features {
     display:flex;
-    justify-content:space-around;
+    margin:.5rem;
 }
+
 .feature-item {
     display:flex;
     justify-content:center;
     flex-direction:column;
     align-items:center;
+    margin:.5rem;
+}
+.feature-item p {
+   text-align: center;
+}
+
+.footer-content {
+    display:flex;
+    align-items:flex-start;
+    margin:.5rem;
+}
+
+.footer-section {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    text-align:left;
+    padding-right:5rem;
+    margin:0rem 1rem
+}
+
+.social-links{
+    display:flex;
+    gap:1rem;
+}
+
+.footer-bottom {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:2rem;
 }
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
