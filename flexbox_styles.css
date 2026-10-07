@@ -9,6 +9,33 @@ header {
     margin: 2rem 2rem;
 }
 
+nav {
+    display:flex;
+    align-items:center;
+    gap:1.2rem;
+}
+
+.card-container {
+    display:flex;
+}
+
+.card {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.features {
+    display:flex;
+    justify-content:space-around;
+}
+.feature-item {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
 */
